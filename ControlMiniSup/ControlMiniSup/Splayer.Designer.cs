@@ -89,7 +89,9 @@
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Splayer";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Splayer_FormClosing);
             this.Load += new System.EventHandler(this.Splayer_Load);
             this.CargaPanel.ResumeLayout(false);
             this.ResumeLayout(false);

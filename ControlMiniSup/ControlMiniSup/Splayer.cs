@@ -39,5 +39,11 @@ namespace ControlMiniSup
                 this.Close();
             }
         }
+
+        private void Splayer_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Login login = new Login();
+            login.Show();
+        }
     }
 }
