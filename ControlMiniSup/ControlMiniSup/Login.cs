@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Threading;
 
 namespace ControlMiniSup
 {
@@ -14,7 +15,32 @@ namespace ControlMiniSup
     {
         public Login()
         {
+            Thread tardar = new Thread(new ThreadStart(pantalla));
+            tardar.Start();
+            Thread.Sleep(8000);
             InitializeComponent();
+            tardar.Abort();
+        }
+        
+        public void pantalla()
+        {
+            Application.Run(new SplashScreen());
+        }
+
+        private void Login_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MenuPrincipal mP = new MenuPrincipal();
+            mP.Show();
         }
     }
 }

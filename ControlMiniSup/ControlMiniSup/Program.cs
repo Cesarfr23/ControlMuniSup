@@ -16,7 +16,7 @@ namespace ControlMiniSup
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Splayer());
+            Application.Run(new Login());
         }
     }
 }
