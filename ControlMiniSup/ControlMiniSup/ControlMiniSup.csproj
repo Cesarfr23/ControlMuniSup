@@ -60,6 +60,18 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="rCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rCliente.Designer.cs">
+      <DependentUpon>rCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rProveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rProveedor.Designer.cs">
+      <DependentUpon>rProveedor.cs</DependentUpon>
+    </Compile>
     <Compile Include="rUsuario.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -87,6 +99,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="RCliente.resx">
+      <DependentUpon>rCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rProveedor.resx">
+      <DependentUpon>rProveedor.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="rUsuario.resx">
       <DependentUpon>rUsuario.cs</DependentUpon>
     </EmbeddedResource>
@@ -109,10 +127,12 @@
   <ItemGroup />
   <ItemGroup>
     <Content Include="Resources\1470117464_empty-shopping-cart.ico" />
+    <Content Include="Resources\Cliente.jpg" />
     <Content Include="Resources\Fondo..jpg" />
     <Content Include="Resources\Fondo.jpg" />
     <Content Include="Resources\Login..png" />
     <Content Include="Resources\Login.png" />
+    <Content Include="Resources\Proveedor.jpg" />
     <Content Include="Resources\Rectangulo..png" />
     <Content Include="Resources\Rectangulo.png" />
     <Content Include="Resources\Splayer..png" />
