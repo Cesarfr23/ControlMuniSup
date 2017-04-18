@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace ControlMiniSup
 {
-    public partial class MenuPrincipal : Form
+    public partial class cArticulo : Form
     {
-        public MenuPrincipal()
+        public cArticulo()
         {
             InitializeComponent();
-        }
-
-        private void articuloToolStripMenuItem1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

@@ -8,18 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ControlMiniSup
+namespace WindowsFormsApplication1
 {
-    public partial class MenuPrincipal : Form
+    public partial class Form1 : Form
     {
-        public MenuPrincipal()
+        public Form1()
         {
             InitializeComponent();
-        }
-
-        private void articuloToolStripMenuItem1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
