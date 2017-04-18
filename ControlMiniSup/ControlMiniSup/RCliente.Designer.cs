@@ -68,51 +68,59 @@
             // 
             // button4
             // 
+            this.button4.BackColor = System.Drawing.Color.White;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
             this.button4.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button4.Location = new System.Drawing.Point(343, 326);
+            this.button4.Location = new System.Drawing.Point(338, 326);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 66);
+            this.button4.Size = new System.Drawing.Size(78, 70);
             this.button4.TabIndex = 44;
             this.button4.Text = "Eliminar";
             this.button4.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button4.UseVisualStyleBackColor = true;
+            this.button4.UseVisualStyleBackColor = false;
             // 
             // button3
             // 
+            this.button3.BackColor = System.Drawing.Color.White;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
             this.button3.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button3.Location = new System.Drawing.Point(237, 326);
+            this.button3.Location = new System.Drawing.Point(227, 326);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 66);
+            this.button3.Size = new System.Drawing.Size(78, 70);
             this.button3.TabIndex = 43;
             this.button3.Text = "Modificar";
             this.button3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button3.UseVisualStyleBackColor = true;
+            this.button3.UseVisualStyleBackColor = false;
             // 
             // button2
             // 
+            this.button2.BackColor = System.Drawing.Color.White;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
             this.button2.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button2.Location = new System.Drawing.Point(114, 326);
+            this.button2.Location = new System.Drawing.Point(116, 326);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 66);
+            this.button2.Size = new System.Drawing.Size(78, 70);
             this.button2.TabIndex = 42;
             this.button2.Text = "Guardar";
             this.button2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.Color.White;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
             this.button1.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.button1.Location = new System.Drawing.Point(9, 326);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 66);
+            this.button1.Size = new System.Drawing.Size(78, 70);
             this.button1.TabIndex = 41;
             this.button1.Text = "Nuevo";
             this.button1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             // 
             // label2
             // 
