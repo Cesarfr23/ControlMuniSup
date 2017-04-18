@@ -58,7 +58,7 @@
             // 
             // menuStrip1
             // 
-            this.menuStrip1.BackColor = System.Drawing.SystemColors.Highlight;
+            this.menuStrip1.BackColor = System.Drawing.Color.GhostWhite;
             this.menuStrip1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.menuStrip1.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.menuStrip1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
@@ -81,18 +81,23 @@
             this.sistemaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.cerrarSeccionToolStripMenuItem,
             this.salirToolStripMenuItem});
+            this.sistemaToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("sistemaToolStripMenuItem.Image")));
             this.sistemaToolStripMenuItem.Name = "sistemaToolStripMenuItem";
-            this.sistemaToolStripMenuItem.Size = new System.Drawing.Size(77, 25);
+            this.sistemaToolStripMenuItem.Size = new System.Drawing.Size(93, 25);
             this.sistemaToolStripMenuItem.Text = "Sistema";
             // 
             // cerrarSeccionToolStripMenuItem
             // 
+            this.cerrarSeccionToolStripMenuItem.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.cerrarSeccionToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("cerrarSeccionToolStripMenuItem.Image")));
             this.cerrarSeccionToolStripMenuItem.Name = "cerrarSeccionToolStripMenuItem";
             this.cerrarSeccionToolStripMenuItem.Size = new System.Drawing.Size(181, 26);
             this.cerrarSeccionToolStripMenuItem.Text = "Cerrar Seccion";
             // 
             // salirToolStripMenuItem
             // 
+            this.salirToolStripMenuItem.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.salirToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("salirToolStripMenuItem.Image")));
             this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
             this.salirToolStripMenuItem.Size = new System.Drawing.Size(181, 26);
             this.salirToolStripMenuItem.Text = "Salir";
@@ -105,30 +110,39 @@
             this.proveedorToolStripMenuItem,
             this.usuarioToolStripMenuItem,
             this.categoriaToolStripMenuItem});
+            this.registroToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("registroToolStripMenuItem.Image")));
             this.registroToolStripMenuItem.Name = "registroToolStripMenuItem";
-            this.registroToolStripMenuItem.Size = new System.Drawing.Size(80, 25);
+            this.registroToolStripMenuItem.Size = new System.Drawing.Size(96, 25);
             this.registroToolStripMenuItem.Text = "Registro";
             // 
             // clienteToolStripMenuItem
             // 
+            this.clienteToolStripMenuItem.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.clienteToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("clienteToolStripMenuItem.Image")));
             this.clienteToolStripMenuItem.Name = "clienteToolStripMenuItem";
             this.clienteToolStripMenuItem.Size = new System.Drawing.Size(152, 26);
             this.clienteToolStripMenuItem.Text = "Cliente";
             // 
             // articuloToolStripMenuItem
             // 
+            this.articuloToolStripMenuItem.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.articuloToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("articuloToolStripMenuItem.Image")));
             this.articuloToolStripMenuItem.Name = "articuloToolStripMenuItem";
             this.articuloToolStripMenuItem.Size = new System.Drawing.Size(152, 26);
             this.articuloToolStripMenuItem.Text = "Articulo";
             // 
             // proveedorToolStripMenuItem
             // 
+            this.proveedorToolStripMenuItem.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.proveedorToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("proveedorToolStripMenuItem.Image")));
             this.proveedorToolStripMenuItem.Name = "proveedorToolStripMenuItem";
             this.proveedorToolStripMenuItem.Size = new System.Drawing.Size(152, 26);
             this.proveedorToolStripMenuItem.Text = "Proveedor";
             // 
             // usuarioToolStripMenuItem
             // 
+            this.usuarioToolStripMenuItem.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.usuarioToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("usuarioToolStripMenuItem.Image")));
             this.usuarioToolStripMenuItem.Name = "usuarioToolStripMenuItem";
             this.usuarioToolStripMenuItem.Size = new System.Drawing.Size(152, 26);
             this.usuarioToolStripMenuItem.Text = "Usuario";
@@ -141,48 +155,59 @@
             this.proveedorToolStripMenuItem1,
             this.usuarioToolStripMenuItem1,
             this.categoriaToolStripMenuItem1});
+            this.consultaToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("consultaToolStripMenuItem.Image")));
             this.consultaToolStripMenuItem.Name = "consultaToolStripMenuItem";
-            this.consultaToolStripMenuItem.Size = new System.Drawing.Size(83, 25);
+            this.consultaToolStripMenuItem.Size = new System.Drawing.Size(99, 25);
             this.consultaToolStripMenuItem.Text = "Consulta";
             // 
             // ventaToolStripMenuItem
             // 
+            this.ventaToolStripMenuItem.BackColor = System.Drawing.Color.LightSkyBlue;
             this.ventaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.clienteToolStripMenuItem2,
             this.articuloToolStripMenuItem2,
             this.proveedorToolStripMenuItem2,
             this.usuarioToolStripMenuItem2,
             this.categoriaToolStripMenuItem2});
+            this.ventaToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("ventaToolStripMenuItem.Image")));
             this.ventaToolStripMenuItem.Name = "ventaToolStripMenuItem";
-            this.ventaToolStripMenuItem.Size = new System.Drawing.Size(77, 25);
+            this.ventaToolStripMenuItem.Size = new System.Drawing.Size(93, 25);
             this.ventaToolStripMenuItem.Text = "Reporte";
             // 
             // ayudaToolStripMenuItem
             // 
+            this.ayudaToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("ayudaToolStripMenuItem.Image")));
             this.ayudaToolStripMenuItem.Name = "ayudaToolStripMenuItem";
-            this.ayudaToolStripMenuItem.Size = new System.Drawing.Size(61, 25);
+            this.ayudaToolStripMenuItem.Size = new System.Drawing.Size(77, 25);
             this.ayudaToolStripMenuItem.Text = "Venta";
             // 
             // ayudaToolStripMenuItem1
             // 
+            this.ayudaToolStripMenuItem1.Image = ((System.Drawing.Image)(resources.GetObject("ayudaToolStripMenuItem1.Image")));
             this.ayudaToolStripMenuItem1.Name = "ayudaToolStripMenuItem1";
-            this.ayudaToolStripMenuItem1.Size = new System.Drawing.Size(66, 25);
+            this.ayudaToolStripMenuItem1.Size = new System.Drawing.Size(82, 25);
             this.ayudaToolStripMenuItem1.Text = "Ayuda";
             // 
             // categoriaToolStripMenuItem
             // 
+            this.categoriaToolStripMenuItem.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.categoriaToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("categoriaToolStripMenuItem.Image")));
             this.categoriaToolStripMenuItem.Name = "categoriaToolStripMenuItem";
             this.categoriaToolStripMenuItem.Size = new System.Drawing.Size(152, 26);
             this.categoriaToolStripMenuItem.Text = "Categoria";
             // 
             // clienteToolStripMenuItem1
             // 
+            this.clienteToolStripMenuItem1.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.clienteToolStripMenuItem1.Image = ((System.Drawing.Image)(resources.GetObject("clienteToolStripMenuItem1.Image")));
             this.clienteToolStripMenuItem1.Name = "clienteToolStripMenuItem1";
             this.clienteToolStripMenuItem1.Size = new System.Drawing.Size(152, 26);
             this.clienteToolStripMenuItem1.Text = "Cliente";
             // 
             // articuloToolStripMenuItem1
             // 
+            this.articuloToolStripMenuItem1.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.articuloToolStripMenuItem1.Image = ((System.Drawing.Image)(resources.GetObject("articuloToolStripMenuItem1.Image")));
             this.articuloToolStripMenuItem1.Name = "articuloToolStripMenuItem1";
             this.articuloToolStripMenuItem1.Size = new System.Drawing.Size(152, 26);
             this.articuloToolStripMenuItem1.Text = "Articulo";
@@ -190,48 +215,64 @@
             // 
             // proveedorToolStripMenuItem1
             // 
+            this.proveedorToolStripMenuItem1.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.proveedorToolStripMenuItem1.Image = ((System.Drawing.Image)(resources.GetObject("proveedorToolStripMenuItem1.Image")));
             this.proveedorToolStripMenuItem1.Name = "proveedorToolStripMenuItem1";
             this.proveedorToolStripMenuItem1.Size = new System.Drawing.Size(152, 26);
             this.proveedorToolStripMenuItem1.Text = "Proveedor";
             // 
             // usuarioToolStripMenuItem1
             // 
+            this.usuarioToolStripMenuItem1.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.usuarioToolStripMenuItem1.Image = ((System.Drawing.Image)(resources.GetObject("usuarioToolStripMenuItem1.Image")));
             this.usuarioToolStripMenuItem1.Name = "usuarioToolStripMenuItem1";
             this.usuarioToolStripMenuItem1.Size = new System.Drawing.Size(152, 26);
             this.usuarioToolStripMenuItem1.Text = "Usuario";
             // 
             // categoriaToolStripMenuItem1
             // 
+            this.categoriaToolStripMenuItem1.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.categoriaToolStripMenuItem1.Image = ((System.Drawing.Image)(resources.GetObject("categoriaToolStripMenuItem1.Image")));
             this.categoriaToolStripMenuItem1.Name = "categoriaToolStripMenuItem1";
             this.categoriaToolStripMenuItem1.Size = new System.Drawing.Size(152, 26);
             this.categoriaToolStripMenuItem1.Text = "Categoria";
             // 
             // clienteToolStripMenuItem2
             // 
+            this.clienteToolStripMenuItem2.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.clienteToolStripMenuItem2.Image = ((System.Drawing.Image)(resources.GetObject("clienteToolStripMenuItem2.Image")));
             this.clienteToolStripMenuItem2.Name = "clienteToolStripMenuItem2";
             this.clienteToolStripMenuItem2.Size = new System.Drawing.Size(152, 26);
             this.clienteToolStripMenuItem2.Text = "Cliente";
             // 
             // articuloToolStripMenuItem2
             // 
+            this.articuloToolStripMenuItem2.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.articuloToolStripMenuItem2.Image = ((System.Drawing.Image)(resources.GetObject("articuloToolStripMenuItem2.Image")));
             this.articuloToolStripMenuItem2.Name = "articuloToolStripMenuItem2";
             this.articuloToolStripMenuItem2.Size = new System.Drawing.Size(152, 26);
             this.articuloToolStripMenuItem2.Text = "Articulo";
             // 
             // proveedorToolStripMenuItem2
             // 
+            this.proveedorToolStripMenuItem2.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.proveedorToolStripMenuItem2.Image = ((System.Drawing.Image)(resources.GetObject("proveedorToolStripMenuItem2.Image")));
             this.proveedorToolStripMenuItem2.Name = "proveedorToolStripMenuItem2";
             this.proveedorToolStripMenuItem2.Size = new System.Drawing.Size(152, 26);
             this.proveedorToolStripMenuItem2.Text = "Proveedor";
             // 
             // usuarioToolStripMenuItem2
             // 
+            this.usuarioToolStripMenuItem2.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.usuarioToolStripMenuItem2.Image = ((System.Drawing.Image)(resources.GetObject("usuarioToolStripMenuItem2.Image")));
             this.usuarioToolStripMenuItem2.Name = "usuarioToolStripMenuItem2";
             this.usuarioToolStripMenuItem2.Size = new System.Drawing.Size(152, 26);
             this.usuarioToolStripMenuItem2.Text = "Usuario";
             // 
             // categoriaToolStripMenuItem2
             // 
+            this.categoriaToolStripMenuItem2.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.categoriaToolStripMenuItem2.Image = ((System.Drawing.Image)(resources.GetObject("categoriaToolStripMenuItem2.Image")));
             this.categoriaToolStripMenuItem2.Name = "categoriaToolStripMenuItem2";
             this.categoriaToolStripMenuItem2.Size = new System.Drawing.Size(152, 26);
             this.categoriaToolStripMenuItem2.Text = "Categoria";

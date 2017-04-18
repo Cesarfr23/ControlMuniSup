@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(cArticulo));
             this.button1 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
@@ -46,11 +47,14 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(494, 378);
+            this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button1.Location = new System.Drawing.Point(494, 350);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(80, 29);
+            this.button1.Size = new System.Drawing.Size(80, 64);
             this.button1.TabIndex = 0;
             this.button1.Text = "Imprimir";
+            this.button1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button1.UseVisualStyleBackColor = true;
             // 
             // dataGridView1
@@ -58,7 +62,7 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(14, 116);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(681, 228);
+            this.dataGridView1.Size = new System.Drawing.Size(681, 216);
             this.dataGridView1.TabIndex = 4;
             // 
             // comboBox1
@@ -72,11 +76,14 @@
             // buscarButton
             // 
             this.buscarButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buscarButton.Location = new System.Drawing.Point(590, 30);
+            this.buscarButton.Image = ((System.Drawing.Image)(resources.GetObject("buscarButton.Image")));
+            this.buscarButton.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.buscarButton.Location = new System.Drawing.Point(599, 10);
             this.buscarButton.Name = "buscarButton";
-            this.buscarButton.Size = new System.Drawing.Size(88, 32);
+            this.buscarButton.Size = new System.Drawing.Size(88, 65);
             this.buscarButton.TabIndex = 6;
             this.buscarButton.Text = "Buscar";
+            this.buscarButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.buscarButton.UseVisualStyleBackColor = true;
             // 
             // label1
@@ -109,11 +116,14 @@
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(603, 378);
+            this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
+            this.button2.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button2.Location = new System.Drawing.Point(603, 350);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 29);
+            this.button2.Size = new System.Drawing.Size(75, 64);
             this.button2.TabIndex = 1;
             this.button2.Text = "Ver";
+            this.button2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button2.UseVisualStyleBackColor = true;
             // 
             // label3
