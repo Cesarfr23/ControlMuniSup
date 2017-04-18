@@ -162,7 +162,7 @@
             // 
             // ventaToolStripMenuItem
             // 
-            this.ventaToolStripMenuItem.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.ventaToolStripMenuItem.BackColor = System.Drawing.Color.GhostWhite;
             this.ventaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.clienteToolStripMenuItem2,
             this.articuloToolStripMenuItem2,
