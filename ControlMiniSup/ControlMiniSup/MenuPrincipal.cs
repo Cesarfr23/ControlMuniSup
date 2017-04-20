@@ -19,7 +19,26 @@ namespace ControlMiniSup
 
         private void articuloToolStripMenuItem1_Click(object sender, EventArgs e)
         {
+            rArticulo articulo = new rArticulo();
+            articulo.ShowDialog();
+        }
 
+        private void clienteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            rCliente cliente = new rCliente();
+            cliente.ShowDialog();
+        }
+
+        private void proveedorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            rProveedor proveedor = new rProveedor();
+            proveedor.ShowDialog();
+        }
+
+        private void usuarioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            rUsuario usuario = new rUsuario();
+            usuario.ShowDialog();
         }
     }
 }

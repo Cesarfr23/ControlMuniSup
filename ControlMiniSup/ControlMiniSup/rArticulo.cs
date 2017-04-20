@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace ControlMiniSup
 {
-    public partial class rProveedor : Form
+    public partial class rArticulo : Form
     {
-        public rProveedor()
+        public rArticulo()
         {
             InitializeComponent();
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
