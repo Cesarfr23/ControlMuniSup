@@ -76,5 +76,11 @@ namespace ControlMiniSup
             cCategoria categoria = new cCategoria();
             categoria.ShowDialog();
         }
+
+        private void ayudaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Venta venta = new Venta();
+            venta.ShowDialog();
+        }
     }
 }

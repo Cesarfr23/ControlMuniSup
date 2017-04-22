@@ -126,6 +126,12 @@
     <Compile Include="SplashScreen.Designer.cs">
       <DependentUpon>SplashScreen.cs</DependentUpon>
     </Compile>
+    <Compile Include="Venta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Venta.Designer.cs">
+      <DependentUpon>Venta.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="cArticulo.resx">
       <DependentUpon>cArticulo.cs</DependentUpon>
     </EmbeddedResource>
@@ -173,6 +179,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SplashScreen.resx">
       <DependentUpon>SplashScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Venta.resx">
+      <DependentUpon>Venta.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
