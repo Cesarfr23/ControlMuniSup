@@ -71,6 +71,7 @@
             this.textBox10 = new System.Windows.Forms.TextBox();
             this.textBox11 = new System.Windows.Forms.TextBox();
             this.textBox12 = new System.Windows.Forms.TextBox();
+            this.label16 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -89,7 +90,7 @@
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Location = new System.Drawing.Point(27, 61);
+            this.groupBox1.Location = new System.Drawing.Point(27, 46);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(422, 80);
             this.groupBox1.TabIndex = 0;
@@ -149,9 +150,9 @@
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.pictureBox1);
-            this.groupBox2.Location = new System.Drawing.Point(560, 50);
+            this.groupBox2.Location = new System.Drawing.Point(560, 46);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(200, 181);
+            this.groupBox2.Size = new System.Drawing.Size(200, 166);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Imagen";
@@ -160,7 +161,7 @@
             // 
             this.pictureBox1.Location = new System.Drawing.Point(6, 15);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(188, 155);
+            this.pictureBox1.Size = new System.Drawing.Size(188, 145);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
@@ -170,7 +171,7 @@
             this.groupBox3.Controls.Add(this.comboBox2);
             this.groupBox3.Controls.Add(this.label5);
             this.groupBox3.Controls.Add(this.label4);
-            this.groupBox3.Location = new System.Drawing.Point(27, 163);
+            this.groupBox3.Location = new System.Drawing.Point(27, 133);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(374, 79);
             this.groupBox3.TabIndex = 2;
@@ -224,9 +225,9 @@
             this.groupBox4.Controls.Add(this.label7);
             this.groupBox4.Controls.Add(this.textBox4);
             this.groupBox4.Controls.Add(this.label6);
-            this.groupBox4.Location = new System.Drawing.Point(27, 267);
+            this.groupBox4.Location = new System.Drawing.Point(27, 218);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(527, 353);
+            this.groupBox4.Size = new System.Drawing.Size(527, 330);
             this.groupBox4.TabIndex = 3;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Articulo";
@@ -284,13 +285,13 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(8, 80);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(510, 114);
+            this.dataGridView1.Size = new System.Drawing.Size(510, 93);
             this.dataGridView1.TabIndex = 8;
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(7, 221);
+            this.label8.Location = new System.Drawing.Point(7, 202);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(49, 13);
             this.label8.TabIndex = 9;
@@ -298,7 +299,7 @@
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(59, 218);
+            this.textBox5.Location = new System.Drawing.Point(59, 199);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(100, 20);
             this.textBox5.TabIndex = 10;
@@ -306,7 +307,7 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(171, 221);
+            this.label9.Location = new System.Drawing.Point(171, 202);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(40, 13);
             this.label9.TabIndex = 11;
@@ -314,7 +315,7 @@
             // 
             // textBox6
             // 
-            this.textBox6.Location = new System.Drawing.Point(217, 218);
+            this.textBox6.Location = new System.Drawing.Point(217, 199);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(157, 20);
             this.textBox6.TabIndex = 12;
@@ -325,7 +326,7 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
             this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(416, 197);
+            this.button1.Location = new System.Drawing.Point(416, 176);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(101, 49);
             this.button1.TabIndex = 13;
@@ -336,7 +337,7 @@
             // dataGridView2
             // 
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Location = new System.Drawing.Point(9, 250);
+            this.dataGridView2.Location = new System.Drawing.Point(9, 227);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.Size = new System.Drawing.Size(508, 97);
             this.dataGridView2.TabIndex = 14;
@@ -347,7 +348,7 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(27, 626);
+            this.button2.Location = new System.Drawing.Point(27, 554);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(90, 45);
             this.button2.TabIndex = 4;
@@ -357,7 +358,7 @@
             // 
             // textBox7
             // 
-            this.textBox7.Location = new System.Drawing.Point(432, 651);
+            this.textBox7.Location = new System.Drawing.Point(432, 567);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(100, 20);
             this.textBox7.TabIndex = 5;
@@ -365,7 +366,7 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(413, 654);
+            this.label10.Location = new System.Drawing.Point(413, 570);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(13, 13);
             this.label10.TabIndex = 6;
@@ -384,7 +385,7 @@
             this.groupBox5.Controls.Add(this.textBox8);
             this.groupBox5.Controls.Add(this.comboBox4);
             this.groupBox5.Controls.Add(this.label11);
-            this.groupBox5.Location = new System.Drawing.Point(560, 418);
+            this.groupBox5.Location = new System.Drawing.Point(560, 366);
             this.groupBox5.Name = "groupBox5";
             this.groupBox5.Size = new System.Drawing.Size(212, 182);
             this.groupBox5.TabIndex = 7;
@@ -450,11 +451,11 @@
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.ForeColor = System.Drawing.Color.Red;
-            this.label15.Location = new System.Drawing.Point(25, 146);
+            this.label15.Location = new System.Drawing.Point(17, 146);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(47, 13);
+            this.label15.Size = new System.Drawing.Size(59, 17);
             this.label15.TabIndex = 6;
             this.label15.Text = "TOTAL";
             // 
@@ -487,12 +488,26 @@
             this.textBox12.Size = new System.Drawing.Size(130, 20);
             this.textBox12.TabIndex = 10;
             // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Arial Black", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.ForeColor = System.Drawing.Color.Red;
+            this.label16.Image = ((System.Drawing.Image)(resources.GetObject("label16.Image")));
+            this.label16.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label16.Location = new System.Drawing.Point(335, 9);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(113, 31);
+            this.label16.TabIndex = 46;
+            this.label16.Text = "    Venta";
+            // 
             // Venta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSkyBlue;
-            this.ClientSize = new System.Drawing.Size(784, 686);
+            this.ClientSize = new System.Drawing.Size(784, 604);
+            this.Controls.Add(this.label16);
             this.Controls.Add(this.groupBox5);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.textBox7);
@@ -564,5 +579,6 @@
         private System.Windows.Forms.TextBox textBox8;
         private System.Windows.Forms.ComboBox comboBox4;
         private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label label16;
     }
 }
