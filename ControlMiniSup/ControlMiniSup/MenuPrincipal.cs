@@ -40,5 +40,17 @@ namespace ControlMiniSup
             rUsuario usuario = new rUsuario();
             usuario.ShowDialog();
         }
+
+        private void articuloToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            rArticulo articulo = new rArticulo();
+            articulo.ShowDialog();
+        }
+
+        private void categoriaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            rCategoria categoria = new rCategoria();
+            categoria.ShowDialog();
+        }
     }
 }

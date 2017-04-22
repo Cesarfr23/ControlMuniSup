@@ -51,6 +51,8 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label2
@@ -91,7 +93,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Location = new System.Drawing.Point(36, 132);
+            this.label4.Location = new System.Drawing.Point(36, 124);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(43, 13);
             this.label4.TabIndex = 5;
@@ -101,7 +103,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.Location = new System.Drawing.Point(243, 132);
+            this.label5.Location = new System.Drawing.Point(243, 124);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(36, 13);
             this.label5.TabIndex = 6;
@@ -109,14 +111,14 @@
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(36, 148);
+            this.textBox3.Location = new System.Drawing.Point(36, 140);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(177, 20);
             this.textBox3.TabIndex = 7;
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(243, 148);
+            this.textBox4.Location = new System.Drawing.Point(243, 140);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(195, 20);
             this.textBox4.TabIndex = 8;
@@ -125,7 +127,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.Transparent;
-            this.label6.Location = new System.Drawing.Point(36, 216);
+            this.label6.Location = new System.Drawing.Point(36, 221);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(61, 13);
             this.label6.TabIndex = 9;
@@ -135,7 +137,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.Transparent;
-            this.label7.Location = new System.Drawing.Point(243, 216);
+            this.label7.Location = new System.Drawing.Point(243, 221);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(108, 13);
             this.label7.TabIndex = 10;
@@ -143,14 +145,14 @@
             // 
             // contraseñaMaskedTextBox
             // 
-            this.contraseñaMaskedTextBox.Location = new System.Drawing.Point(36, 232);
+            this.contraseñaMaskedTextBox.Location = new System.Drawing.Point(36, 237);
             this.contraseñaMaskedTextBox.Name = "contraseñaMaskedTextBox";
             this.contraseñaMaskedTextBox.Size = new System.Drawing.Size(177, 20);
             this.contraseñaMaskedTextBox.TabIndex = 11;
             // 
             // confiContraseñaMaskedTextBox
             // 
-            this.confiContraseñaMaskedTextBox.Location = new System.Drawing.Point(243, 232);
+            this.confiContraseñaMaskedTextBox.Location = new System.Drawing.Point(243, 237);
             this.confiContraseñaMaskedTextBox.Name = "confiContraseñaMaskedTextBox";
             this.confiContraseñaMaskedTextBox.Size = new System.Drawing.Size(192, 20);
             this.confiContraseñaMaskedTextBox.TabIndex = 12;
@@ -276,6 +278,23 @@
             this.button4.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button4.UseVisualStyleBackColor = false;
             // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(243, 190);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(195, 20);
+            this.textBox5.TabIndex = 25;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.BackColor = System.Drawing.Color.Transparent;
+            this.label8.Location = new System.Drawing.Point(243, 174);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(108, 13);
+            this.label8.TabIndex = 24;
+            this.label8.Text = "Fecha de Nacimiento";
+            // 
             // rUsuario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -283,6 +302,8 @@
             this.BackColor = System.Drawing.Color.LightSkyBlue;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(477, 421);
+            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.label8);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
@@ -336,5 +357,7 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.Label label8;
     }
 }

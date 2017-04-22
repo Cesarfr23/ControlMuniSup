@@ -52,6 +52,30 @@
     <Compile Include="cArticulo.Designer.cs">
       <DependentUpon>cArticulo.cs</DependentUpon>
     </Compile>
+    <Compile Include="cCategoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cCategoria.Designer.cs">
+      <DependentUpon>cCategoria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cCliente.Designer.cs">
+      <DependentUpon>cCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cProveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cProveedor.Designer.cs">
+      <DependentUpon>cProveedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cUsuario.Designer.cs">
+      <DependentUpon>cUsuario.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -71,6 +95,12 @@
     </Compile>
     <Compile Include="rArticulo.Designer.cs">
       <DependentUpon>rArticulo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="rCategoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rCategoria.Designer.cs">
+      <DependentUpon>rCategoria.cs</DependentUpon>
     </Compile>
     <Compile Include="rCliente.cs">
       <SubType>Form</SubType>
@@ -99,6 +129,18 @@
     <EmbeddedResource Include="cArticulo.resx">
       <DependentUpon>cArticulo.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="cCategoria.resx">
+      <DependentUpon>cCategoria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cCliente.resx">
+      <DependentUpon>cCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cProveedor.resx">
+      <DependentUpon>cProveedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cUsuario.resx">
+      <DependentUpon>cUsuario.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
@@ -116,6 +158,9 @@
     </Compile>
     <EmbeddedResource Include="rArticulo.resx">
       <DependentUpon>rArticulo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rCategoria.resx">
+      <DependentUpon>rCategoria.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="RCliente.resx">
       <DependentUpon>rCliente.cs</DependentUpon>

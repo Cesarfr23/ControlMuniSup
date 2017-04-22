@@ -46,16 +46,18 @@
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.Color.White;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Image = ((System.Drawing.Image)(resources.GetObject("button1.Image")));
             this.button1.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button1.Location = new System.Drawing.Point(494, 350);
+            this.button1.Location = new System.Drawing.Point(494, 342);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(80, 64);
+            this.button1.Size = new System.Drawing.Size(78, 70);
             this.button1.TabIndex = 0;
             this.button1.Text = "Imprimir";
             this.button1.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             // 
             // dataGridView1
             // 
@@ -75,6 +77,8 @@
             // 
             // buscarButton
             // 
+            this.buscarButton.BackColor = System.Drawing.Color.White;
+            this.buscarButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buscarButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buscarButton.Image = ((System.Drawing.Image)(resources.GetObject("buscarButton.Image")));
             this.buscarButton.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -84,7 +88,7 @@
             this.buscarButton.TabIndex = 6;
             this.buscarButton.Text = "Buscar";
             this.buscarButton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.buscarButton.UseVisualStyleBackColor = true;
+            this.buscarButton.UseVisualStyleBackColor = false;
             // 
             // label1
             // 
@@ -115,16 +119,18 @@
             // 
             // button2
             // 
+            this.button2.BackColor = System.Drawing.Color.White;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
             this.button2.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button2.Location = new System.Drawing.Point(603, 350);
+            this.button2.Location = new System.Drawing.Point(603, 342);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 64);
+            this.button2.Size = new System.Drawing.Size(78, 70);
             this.button2.TabIndex = 1;
             this.button2.Text = "Ver";
             this.button2.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.button2.UseVisualStyleBackColor = true;
+            this.button2.UseVisualStyleBackColor = false;
             // 
             // label3
             // 
@@ -164,6 +170,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.LightSkyBlue;
             this.ClientSize = new System.Drawing.Size(707, 419);
             this.Controls.Add(this.dateTimePicker2);
             this.Controls.Add(this.dateTimePicker1);
