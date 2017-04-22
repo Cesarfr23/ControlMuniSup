@@ -17,16 +17,16 @@ namespace ControlMiniSup
             InitializeComponent();
         }
 
-        private void articuloToolStripMenuItem1_Click(object sender, EventArgs e)
-        {
-            rArticulo articulo = new rArticulo();
-            articulo.ShowDialog();
-        }
-
         private void clienteToolStripMenuItem_Click(object sender, EventArgs e)
         {
             rCliente cliente = new rCliente();
             cliente.ShowDialog();
+        }
+
+        private void articuloToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            rArticulo articulo = new rArticulo();
+            articulo.ShowDialog();
         }
 
         private void proveedorToolStripMenuItem_Click(object sender, EventArgs e)
@@ -41,15 +41,39 @@ namespace ControlMiniSup
             usuario.ShowDialog();
         }
 
-        private void articuloToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            rArticulo articulo = new rArticulo();
-            articulo.ShowDialog();
-        }
-
         private void categoriaToolStripMenuItem_Click(object sender, EventArgs e)
         {
             rCategoria categoria = new rCategoria();
+            categoria.ShowDialog();
+        }
+
+        private void clienteToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            cCliente cliente = new cCliente();
+            cliente.ShowDialog();
+        }
+
+        private void articuloToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            cArticulo articulo = new cArticulo();
+            articulo.ShowDialog();
+        }
+
+        private void proveedorToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            cProveedor proveedor = new cProveedor();
+            proveedor.ShowDialog();
+        }
+
+        private void usuarioToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            cUsuario usuario = new cUsuario();
+            usuario.ShowDialog();
+        }
+
+        private void categoriaToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            cCategoria categoria = new cCategoria();
             categoria.ShowDialog();
         }
     }

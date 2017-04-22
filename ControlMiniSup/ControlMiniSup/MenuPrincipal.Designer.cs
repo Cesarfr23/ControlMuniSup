@@ -180,6 +180,7 @@
             this.clienteToolStripMenuItem1.Name = "clienteToolStripMenuItem1";
             this.clienteToolStripMenuItem1.Size = new System.Drawing.Size(152, 26);
             this.clienteToolStripMenuItem1.Text = "Cliente";
+            this.clienteToolStripMenuItem1.Click += new System.EventHandler(this.clienteToolStripMenuItem1_Click);
             // 
             // articuloToolStripMenuItem1
             // 
@@ -197,6 +198,7 @@
             this.proveedorToolStripMenuItem1.Name = "proveedorToolStripMenuItem1";
             this.proveedorToolStripMenuItem1.Size = new System.Drawing.Size(152, 26);
             this.proveedorToolStripMenuItem1.Text = "Proveedor";
+            this.proveedorToolStripMenuItem1.Click += new System.EventHandler(this.proveedorToolStripMenuItem1_Click);
             // 
             // usuarioToolStripMenuItem1
             // 
@@ -205,6 +207,7 @@
             this.usuarioToolStripMenuItem1.Name = "usuarioToolStripMenuItem1";
             this.usuarioToolStripMenuItem1.Size = new System.Drawing.Size(152, 26);
             this.usuarioToolStripMenuItem1.Text = "Usuario";
+            this.usuarioToolStripMenuItem1.Click += new System.EventHandler(this.usuarioToolStripMenuItem1_Click);
             // 
             // categoriaToolStripMenuItem1
             // 
@@ -213,6 +216,7 @@
             this.categoriaToolStripMenuItem1.Name = "categoriaToolStripMenuItem1";
             this.categoriaToolStripMenuItem1.Size = new System.Drawing.Size(152, 26);
             this.categoriaToolStripMenuItem1.Text = "Categoria";
+            this.categoriaToolStripMenuItem1.Click += new System.EventHandler(this.categoriaToolStripMenuItem1_Click);
             // 
             // ventaToolStripMenuItem
             // 
