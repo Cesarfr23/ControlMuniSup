@@ -37,7 +37,7 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // button4
@@ -137,13 +137,13 @@
             this.label2.TabIndex = 26;
             this.label2.Text = "Nombre";
             // 
-            // listBox1
+            // textBox2
             // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(225, 99);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(189, 43);
-            this.listBox1.TabIndex = 48;
+            this.textBox2.Location = new System.Drawing.Point(229, 98);
+            this.textBox2.Multiline = true;
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(185, 48);
+            this.textBox2.TabIndex = 48;
             // 
             // rCategoria
             // 
@@ -151,7 +151,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSkyBlue;
             this.ClientSize = new System.Drawing.Size(434, 261);
-            this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.textBox2);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
@@ -176,6 +176,6 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.TextBox textBox2;
     }
 }

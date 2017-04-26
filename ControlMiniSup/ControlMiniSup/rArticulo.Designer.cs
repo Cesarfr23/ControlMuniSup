@@ -38,22 +38,22 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.imagenArticulo = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.listBox1 = new System.Windows.Forms.ListBox();
             this.label4 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.textBox7 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.imagenArticulo)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -162,14 +162,6 @@
             this.label3.TabIndex = 54;
             this.label3.Text = "Descripcion";
             // 
-            // listBox1
-            // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(88, 114);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(247, 56);
-            this.listBox1.TabIndex = 55;
-            // 
             // label4
             // 
             this.label4.AutoSize = true;
@@ -220,38 +212,6 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Preacio:";
             // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(160, 39);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(120, 20);
-            this.textBox4.TabIndex = 3;
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(11, 39);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(121, 20);
-            this.textBox3.TabIndex = 2;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(157, 23);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(38, 13);
-            this.label7.TabIndex = 1;
-            this.label7.Text = "Venta:";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(8, 23);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(46, 13);
-            this.label6.TabIndex = 0;
-            this.label6.Text = "Compra:";
-            // 
             // textBox5
             // 
             this.textBox5.Location = new System.Drawing.Point(160, 91);
@@ -286,6 +246,38 @@
             this.label9.TabIndex = 4;
             this.label9.Text = "Itebis:";
             // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(160, 39);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(120, 20);
+            this.textBox4.TabIndex = 3;
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(11, 39);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(121, 20);
+            this.textBox3.TabIndex = 2;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(157, 23);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(38, 13);
+            this.label7.TabIndex = 1;
+            this.label7.Text = "Venta:";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(8, 23);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(46, 13);
+            this.label6.TabIndex = 0;
+            this.label6.Text = "Compra:";
+            // 
             // label10
             // 
             this.label10.AutoSize = true;
@@ -302,12 +294,21 @@
             this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
             this.dateTimePicker1.TabIndex = 62;
             // 
+            // textBox7
+            // 
+            this.textBox7.Location = new System.Drawing.Point(88, 114);
+            this.textBox7.Multiline = true;
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(247, 53);
+            this.textBox7.TabIndex = 63;
+            // 
             // rArticulo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSkyBlue;
             this.ClientSize = new System.Drawing.Size(697, 489);
+            this.Controls.Add(this.textBox7);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.groupBox1);
@@ -315,7 +316,6 @@
             this.Controls.Add(this.label5);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.listBox1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.imagenArticulo);
             this.Controls.Add(this.textBox1);
@@ -347,7 +347,6 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.PictureBox imagenArticulo;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label label5;
@@ -363,5 +362,6 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.TextBox textBox7;
     }
 }
